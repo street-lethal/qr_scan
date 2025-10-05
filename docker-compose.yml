@@ -1,0 +1,6 @@
+services:
+  qr:
+    build: .
+    volumes:
+      - ./shared:/root/shared
+    working_dir: /root
