@@ -1,5 +1,5 @@
 services:
-  qr:
+  app:
     build: .
     volumes:
       - ./shared:/root/shared

@@ -1,1 +1,1 @@
-docker-compose run --rm qr bash -c "zbarimg /root/shared/*.jpg"
+docker-compose run --rm app bash -c "zbarimg /root/shared/*.jpg"
